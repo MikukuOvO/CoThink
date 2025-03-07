@@ -1,0 +1,5 @@
+problem1:
+  question: "What is the area of a right triangle with base 6 units and height 8 units?"
+  values:
+    base: 6
+    height: 8
