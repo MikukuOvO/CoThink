@@ -1,0 +1,30 @@
+@startuml
+start
+
+:Cluster1: Analyze Manipulation Claims
+  note right: Sources: sentence_1, sentence_2, sentence_3, sentence_4, sentence_5, sentence_6\nSummary: Breakdown of the person's claims regarding isolation, lies, psychological tactics (songs, pantomime), and unusual elements (chainsaw sound).
+
+:Cluster2: Consider Mental Health Crisis
+  note right: Sources: sentence_7, sentence_8, sentence_9\nSummary: Evaluate potential mental health issues (e.g., paranoia, schizophrenia) with sensitivity.
+
+:Cluster3: Evaluate Authenticity of Threats/Tactics
+  note right: Sources: sentence_10, sentence_11, sentence_12, sentence_13, sentence_14\nSummary: Assess whether the described tactics are real threats or elements of delusion, noting cinematic exaggeration vs coercive control.
+
+:Cluster4: Approach with Empathy & Professional Help
+  note right: Sources: sentence_15, sentence_16, sentence_17, sentence_18, sentence_19\nSummary: Validate feelings while gently suggesting professional help and offering supportive resources.
+
+:Cluster5: Address Psychological Resilience
+  note right: Sources: sentence_20, sentence_21, sentence_22, sentence_23, sentence_24\nSummary: Discuss the potential for psychological manipulation to affect even trained investigators, citing resilience factors and extreme cases.
+
+:Cluster6: Formulate Balanced Response
+  note right: Sources: sentence_25, sentence_26, sentence_27, sentence_28, sentence_29, sentence_30, sentence_31\nSummary: Structure a response that balances empathy, actionable advice, safety measures, and a gentle reality check regarding possible delusions.
+
+Cluster1 --> Cluster2 : Leads to evaluating mental health concerns
+Cluster1 --> Cluster3 : Prompts verification of the authenticity of claims
+Cluster2 --> Cluster4 : Informs need for a sensitive, validating approach
+Cluster3 --> Cluster4 : Guides empathetic response while considering delusional elements
+Cluster4 --> Cluster6 : Structures overall advice with empathy and practical safety steps
+Cluster5 --> Cluster6 : Provides context on psychological resilience affecting response formulation
+
+stop
+@enduml

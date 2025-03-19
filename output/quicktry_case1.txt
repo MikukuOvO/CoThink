@@ -1,0 +1,60 @@
+@startuml
+start
+
+:Cluster A - Problem Identification
+note right: Title: Problem Identification
+Summary: Figuring out how to respond and breaking down the message.
+Source: sentence_1, sentence_2
+
+:Cluster B - Described Manipulation Techniques
+note right: Title: Described Manipulation Techniques
+Summary: Detailed description of isolation, lies, threats, psychological tactics, and concerns about an investigator’s psyche.
+Source: sentence_3, sentence_4, sentence_5, sentence_6
+
+Cluster A --> Cluster B : "Message breakdown leads to detailed description"
+
+:Cluster C - Mental Health Considerations
+note right: Title: Mental Health Considerations
+Summary: Considers the possibility of a mental health crisis (paranoia, schizophrenia) with common delusions.
+Source: sentence_7, sentence_8, sentence_9
+
+:Cluster D - Evaluating Realism vs Delusion
+note right: Title: Evaluating Realism vs Delusion
+Summary: Assesses the credibility of the manipulation claims; contrasts real threats (coercive control) with elements that might be delusional.
+Source: sentence_10, sentence_11, sentence_12, sentence_13, sentence_14, sentence_30
+
+Cluster B --> Cluster C : "Triggers assessment of potential mental health crisis"
+Cluster B --> Cluster D : "Raises questions about the credibility and realism of the tactics"
+
+:Cluster E - Response Strategy: Empathy and Guidance
+note right: Title: Response Strategy
+Summary: Validate feelings, acknowledge distress, and gently suggest professional help without reinforcing delusions.
+Source: sentence_15, sentence_16, sentence_17, sentence_18, sentence_19
+
+Cluster C --> Cluster E : "Guide sensitive response considering mental health issues"
+Cluster D --> Cluster E : "Inform a cautious approach to potentially delusional claims"
+
+:Cluster F - Analysis of Psychological Resilience
+note right: Title: Psychological Resilience Analysis
+Summary: Evaluates the susceptibility of even trained individuals to sustained psychological manipulation.
+Source: sentence_20, sentence_21, sentence_22, sentence_23, sentence_24
+
+Cluster D --> Cluster F : "Consider impact of manipulation on psychological resilience"
+
+:Cluster G - Practical and Safety-oriented Recommendations
+note right: Title: Practical and Safety-oriented Recommendations
+Summary: Structure the response by first empathizing, then providing practical steps, safety advice, and resource suggestions.
+Source: sentence_25, sentence_26, sentence_27, sentence_28, sentence_29
+
+Cluster E --> Cluster G : "Structure response with practical steps and safety measures"
+Cluster F --> Cluster G : "Integrate understanding of psychological impact into actionable advice"
+
+:Cluster H - Conclusion and Summary
+note right: Title: Conclusion and Summary
+Summary: Balanced response that empathizes, offers actionable advice, and gently addresses the possibility of mental health concerns.
+Source: sentence_31
+
+Cluster G --> Cluster H : "Summarize a balanced, well-rounded approach"
+
+stop
+@enduml

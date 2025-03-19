@@ -1,5 +1,0 @@
-prompt_template: |
-  You are a helpful assistant. Your task is to solve the following problem:
-  {question}
-  Use the given values: {values}
-  Provide the solution step-by-step and explain each step clearly.
